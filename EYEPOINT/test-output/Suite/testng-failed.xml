@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="demo.BV_Covered">
+        <methods>
+          <include name="AppianRx_SignIn"/>
+          <include name="Open_AppianRx"/>
+          <include name="SelectHCPTo_Case"/>
+          <include name="setExtent"/>
+          <include name="Check_Benefit"/>
+          <include name="Unattended_Faxes"/>
+          <include name="SelectSiteTo_Case"/>
+          <include name="Open_Intake"/>
+          <include name="Triage"/>
+          <include name="SelectPatientTo_Case"/>
+          <include name="Service_Validation"/>
+          <include name="Assigned_Faxes"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- demo.BV_Covered -->
+      <class name="demo.BV_Cancelled">
+        <methods>
+          <include name="Check_Benefit"/>
+          <include name="Open_AppianRx"/>
+          <include name="Unattended_Faxes"/>
+          <include name="AppianRx_SignIn"/>
+          <include name="Close_Service"/>
+          <include name="teardown"/>
+          <include name="Assigned_Faxes"/>
+          <include name="SelectSiteTo_Case"/>
+          <include name="SelectPatientTo_Case"/>
+          <include name="Open_Intake"/>
+          <include name="SelectHCPTo_Case"/>
+          <include name="Service_Validation"/>
+        </methods>
+      </class> <!-- demo.BV_Cancelled -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

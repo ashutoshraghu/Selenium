@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="demo.BV_BND">
+        <methods>
+          <include name="Open_AppianRx"/>
+          <include name="KAM_Email"/>
+          <include name="AppianRx_SignIn"/>
+          <include name="Proceed"/>
+          <include name="setExtent"/>
+          <include name="SelectHCPTo_Case"/>
+          <include name="Unattended_Faxes"/>
+          <include name="Check_Benefit"/>
+          <include name="SelectSiteTo_Case"/>
+          <include name="Open_Intake"/>
+          <include name="Assigned_Faxes"/>
+          <include name="Service_Validation"/>
+          <include name="SelectPatientTo_Case"/>
+          <include name="HCP_FAX"/>
+          <include name="teardown"/>
+          <include name="endreport"/>
+        </methods>
+      </class> <!-- demo.BV_BND -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

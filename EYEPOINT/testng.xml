@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="demo.BV_BND" />
+			<class name="demo.BV_Covered" />
+			<class name="demo.BV_NotCovered" />
+			<class name="demo.BV_Cancelled" />
+			<class name="demo.BV_InProcess" />
+			<class name="demo.BV_PD_AIR" />
+			<class name="demo.BV_PD_PendingPayer" />
+			<class name="demo.BV_PD_Approved" />
+			<class name="demo.BV_PD_Denied" />
+			<class name="demo.BV_PD_Cancelled" />
+			<class name="demo.BV_PD_AIR" />
+			<class name="demo.BV_PD_PendingPayer" />
+			<class name="demo.BV_PD_Approved" />
+			<class name="demo.BV_PD_Denied" />
+			<class name="demo.BV_PD_Cancelled" />
+			<class name="demo.PAP_NotEligible" />
+			<class name="demo.PAP_Approved" />
+			<class name="demo.PAP_MissingInfo" />
+			<class name="demo.Copay" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

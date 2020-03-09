@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">6</td><td class="numi">6</td><td class="numi_attn">6</td><td class="numi_attn">1</td><td class="numi">68.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">demo.BV_BND</td><td><a href="#m1"><b>SelectHCPTo_Case</b>  </a></td><td class="numi">1</td><td>1583490967215</td><td class="numi">4252</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="6">demo.BV_BND</td><td><a href="#m2"><b>KAM_Email</b>  </a></td><td class="numi">1</td><td>1583490972038</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m3"><b>HCP_FAX</b>  </a></td><td class="numi">1</td><td>1583490972035</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m4"><b>SelectSiteTo_Case</b>  </a></td><td class="numi">1</td><td>1583490972025</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>Service_Validation</b>  </a></td><td class="numi">1</td><td>1583490972026</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m6"><b>Check_Benefit</b>  </a></td><td class="numi">1</td><td>1583490972029</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>Proceed</b>  </a></td><td class="numi">1</td><td>1583490972032</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">demo.BV_BND</td><td><a href="#m8"><b>Open_AppianRx</b>  </a></td><td class="numi">1</td><td>1583490904905</td><td class="numi">13994</td></tr><tr class="passedodd"><td><a href="#m9"><b>AppianRx_SignIn</b>  </a></td><td class="numi">1</td><td>1583490918917</td><td class="numi">704</td></tr><tr class="passedodd"><td><a href="#m10"><b>Open_Intake</b>  </a></td><td class="numi">1</td><td>1583490919624</td><td class="numi">7596</td></tr><tr class="passedodd"><td><a href="#m11"><b>Unattended_Faxes</b>  </a></td><td class="numi">1</td><td>1583490927225</td><td class="numi">7233</td></tr><tr class="passedodd"><td><a href="#m12"><b>Assigned_Faxes</b>  </a></td><td class="numi">1</td><td>1583490934461</td><td class="numi">8644</td></tr><tr class="passedodd"><td><a href="#m13"><b>SelectPatientTo_Case</b>  </a></td><td class="numi">1</td><td>1583490943108</td><td class="numi">24103</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">demo.BV_BND:SelectHCPTo_Case</h2>
+<div style="padding-left:3em">
+<p>stale element reference: element is not attached to the page document
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DEL-LAP10&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 158bba4570a2539ff6317115ccb6d158</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at demo.BV_BND.SelectHCPTo_Case(BV_BND.java:156)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">demo.BV_BND:KAM_Email</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">demo.BV_BND:HCP_FAX</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">demo.BV_BND:SelectSiteTo_Case</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">demo.BV_BND:Service_Validation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">demo.BV_BND:Check_Benefit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">demo.BV_BND:Proceed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">demo.BV_BND:AppianRx_SignIn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">demo.BV_BND:Open_Intake</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">demo.BV_BND:Assigned_Faxes</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">demo.BV_BND:Unattended_Faxes</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">demo.BV_BND:Open_AppianRx</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">demo.BV_BND:SelectPatientTo_Case</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
