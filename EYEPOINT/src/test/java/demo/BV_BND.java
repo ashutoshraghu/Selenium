@@ -37,7 +37,7 @@ public class BV_BND extends ExtentReportClass{
 		TakesScreenshot ts =(TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 
-		// After execution you will see a folder "Failed Tests Screenshots" under source folder
+		// After execution you will see a folder "Failed Tests Screenshots" under the source folder
 		String destination = System.getProperty("user.dir")+ "/Failed Tests Screenshots/" + screenshotName +"_" + dateName + ".png";
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
