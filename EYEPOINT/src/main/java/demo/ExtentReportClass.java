@@ -1,6 +1,5 @@
 package demo;
 
-
 import org.testng.annotations.BeforeTest;
 
 import com.relevantcodes.extentreports.ExtentReports;

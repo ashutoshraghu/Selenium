@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/6</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/4</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 06 04:35:04 CST 2020</td>
+<td>Started on:</td><td>Fri Mar 13 16:26:04 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>68 seconds (68245 ms)</td>
+<tr><td>Total time:</td><td>110 seconds (110288 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='demo.BV_BND.SelectHCPTo_Case()'><b>SelectHCPTo_Case</b><br>Test class: demo.BV_BND</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+<td title='demo.BV_BND.Service_Validation()'><b>Service_Validation</b><br>Test class: demo.BV_BND</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;cdk-accordion-child-5&quot;]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img&quot;}
   (Session info: chrome=80.0.3987.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DEL-LAP10&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 158bba4570a2539ff6317115ccb6d158
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dae44502dfc982a48562d9106e1e053
+*** Element info: {Using=xpath, value=//*[@id=&quot;cdk-accordion-child-5&quot;]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -94,9 +95,11 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at demo.BV_BND.SelectHCPTo_Case(BV_BND.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at demo.BV_BND.Service_Validation(BV_BND.java:189)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -121,15 +124,16 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1724256292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1724256292'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+</pre></div><a href='#' onClick='toggleBox("stack-trace318353283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace318353283'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;cdk-accordion-child-5&quot;]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img&quot;}
   (Session info: chrome=80.0.3987.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DEL-LAP10&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 158bba4570a2539ff6317115ccb6d158
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dae44502dfc982a48562d9106e1e053
+*** Element info: {Using=xpath, value=//*[@id=&quot;cdk-accordion-child-5&quot;]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -140,9 +144,11 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at demo.BV_BND.SelectHCPTo_Case(BV_BND.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at demo.BV_BND.Service_Validation(BV_BND.java:189)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -168,7 +174,7 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
-<td>4</td>
+<td>17</td>
 <td>demo.BV_BND@d2cc05a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -191,17 +197,27 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 <tr>
 <td title='demo.BV_BND.Open_AppianRx()'><b>Open_AppianRx</b><br>Test class: demo.BV_BND</td>
 <td></td>
-<td>13</td>
+<td>16</td>
 <td>demo.BV_BND@d2cc05a</td></tr>
 <tr>
 <td title='demo.BV_BND.Open_Intake()'><b>Open_Intake</b><br>Test class: demo.BV_BND</td>
 <td></td>
-<td>7</td>
+<td>6</td>
+<td>demo.BV_BND@d2cc05a</td></tr>
+<tr>
+<td title='demo.BV_BND.SelectHCPTo_Case()'><b>SelectHCPTo_Case</b><br>Test class: demo.BV_BND</td>
+<td></td>
+<td>14</td>
 <td>demo.BV_BND@d2cc05a</td></tr>
 <tr>
 <td title='demo.BV_BND.SelectPatientTo_Case()'><b>SelectPatientTo_Case</b><br>Test class: demo.BV_BND</td>
 <td></td>
-<td>24</td>
+<td>23</td>
+<td>demo.BV_BND@d2cc05a</td></tr>
+<tr>
+<td title='demo.BV_BND.SelectSiteTo_Case()'><b>SelectSiteTo_Case</b><br>Test class: demo.BV_BND</td>
+<td></td>
+<td>14</td>
 <td>demo.BV_BND@d2cc05a</td></tr>
 <tr>
 <td title='demo.BV_BND.Unattended_Faxes()'><b>Unattended_Faxes</b><br>Test class: demo.BV_BND</td>
@@ -233,16 +249,6 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 <td>null</td></tr>
 <tr>
 <td title='demo.BV_BND.Proceed()'><b>Proceed</b><br>Test class: demo.BV_BND</td>
-<td></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='demo.BV_BND.SelectSiteTo_Case()'><b>SelectSiteTo_Case</b><br>Test class: demo.BV_BND</td>
-<td></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='demo.BV_BND.Service_Validation()'><b>Service_Validation</b><br>Test class: demo.BV_BND</td>
 <td></td>
 <td>0</td>
 <td>null</td></tr>

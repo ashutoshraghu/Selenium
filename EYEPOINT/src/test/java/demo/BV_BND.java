@@ -140,6 +140,9 @@ public class BV_BND extends ExtentReportClass{
 		@Test(priority =17, dependsOnMethods = "Assigned_Faxes")
 		public void SelectPatientTo_Case() throws InterruptedException {
 			Thread.sleep(3000);
+			
+			// Second sleep
+			Thread.sleep(3000);
 	
 			driver.findElement(By.xpath("//*[@id=\"mat-radio-9\"]/label/div[1]")).click(); 
 			Thread.sleep(2000);
@@ -152,6 +155,9 @@ public class BV_BND extends ExtentReportClass{
 		@Test(priority =18, dependsOnMethods = "SelectPatientTo_Case")
 		public void SelectHCPTo_Case() throws InterruptedException {
 			Thread.sleep(3000);
+			
+			// Second sleep
+						Thread.sleep(3000);
 	
 			driver.findElement(By.xpath("//*[@id=\"mat-radio-10\"]/label/div[1]")).click();  
 			driver.findElement(By.id("saveAndNext")).click();
@@ -163,6 +169,8 @@ public class BV_BND extends ExtentReportClass{
 		public void SelectSiteTo_Case() throws InterruptedException {
 	
 			Thread.sleep(4000);
+			// Second sleep
+			Thread.sleep(5000);
 	
 			driver.findElement(By.xpath("//*[@id=\"mat-radio-11\"]/label/div[1]")).click();  
 			Thread.sleep(1000); 
@@ -173,20 +181,20 @@ public class BV_BND extends ExtentReportClass{
 		@Test(priority =20, dependsOnMethods = "SelectSiteTo_Case")
 		public void Service_Validation() throws InterruptedException {
 	
-			WebElement element = driver.findElement(By.xpath("//*[@id=\"mat-expansion-panel-header-5\"]/span[1]/mat-panel-title"));
+			WebElement element = driver.findElement(By.xpath("//*[@id=\"mat-expansion-panel-header-4\"]/span[1]/mat-panel-title"));
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 			Thread.sleep(500);
 	
 			// Edit document
-			driver.findElement(By.xpath("//*[@id=\"cdk-accordion-child-5\"]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img")).click();
+			driver.findElement(By.xpath("//*[@id=\"cdk-accordion-child-4\"]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img")).click();
 	
 			Thread.sleep(1000);
 	
-			// Open document dialog box to select all documents 
-			driver.findElement(By.xpath("//*[@id=\"mat-select-25\"]/div/div[1]/span")).click();
+			// Open document dialog box 
+			driver.findElement(By.xpath("//*[@id=\"mat-select-28\"]/div/div[1]/span")).click();
 	
 			// Select Enrollment
-			driver.findElement(By.xpath("//*[@id=\"mat-option-107\"]/mat-pseudo-checkbox")).click();   
+			driver.findElement(By.xpath("//*[@id=\"mat-option-137\"]/mat-pseudo-checkbox")).click();   
 	
 			Actions actions = new Actions(driver);
 			actions.moveToElement(driver.findElement(By.id("mat-dialog-1")), 0, 0);
@@ -204,6 +212,10 @@ public class BV_BND extends ExtentReportClass{
 		public void Check_Benefit() throws InterruptedException {
 	
 			Thread.sleep(3000);
+			
+			
+	// HCP signature
+			
 	
 			// Check Benefit
 			driver.findElement(By.xpath("//*[@id=\"edit\"]")).click();

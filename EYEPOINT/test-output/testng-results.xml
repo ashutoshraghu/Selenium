@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="6" failed="1" total="13" passed="6">
+<testng-results skipped="4" failed="1" total="13" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68245" started-at="2020-03-06T10:35:04Z" finished-at="2020-03-06T10:36:12Z">
+  <suite name="Default suite" duration-ms="110288" started-at="2020-03-13T10:56:04Z" finished-at="2020-03-13T10:57:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="68245" started-at="2020-03-06T10:35:04Z" finished-at="2020-03-06T10:36:12Z">
+    <test name="Default test" duration-ms="110288" started-at="2020-03-13T10:56:04Z" finished-at="2020-03-13T10:57:55Z">
       <class name="demo.BV_BND">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:demo.BV_BND@d2cc05a]" name="setExtent" is-config="true" duration-ms="373" started-at="2020-03-06T04:35:04Z" finished-at="2020-03-06T04:35:04Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:demo.BV_BND@d2cc05a]" name="setExtent" is-config="true" duration-ms="221" started-at="2020-03-13T16:26:04Z" finished-at="2020-03-13T16:26:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="Open_AppianRx()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Open_AppianRx" duration-ms="13994" started-at="2020-03-06T04:35:04Z" finished-at="2020-03-06T04:35:18Z">
+        <test-method status="PASS" signature="Open_AppianRx()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Open_AppianRx" duration-ms="16409" started-at="2020-03-13T16:26:05Z" finished-at="2020-03-13T16:26:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_AppianRx -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="9" started-at="2020-03-06T04:35:18Z" finished-at="2020-03-06T04:35:18Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="10" started-at="2020-03-13T16:26:21Z" finished-at="2020-03-13T16:26:21Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="AppianRx_SignIn()[pri:0, instance:demo.BV_BND@d2cc05a]" name="AppianRx_SignIn" duration-ms="704" started-at="2020-03-06T04:35:18Z" depends-on-methods="demo.BV_BND.Open_AppianRx" finished-at="2020-03-06T04:35:19Z">
+        <test-method status="PASS" signature="AppianRx_SignIn()[pri:0, instance:demo.BV_BND@d2cc05a]" name="AppianRx_SignIn" duration-ms="628" started-at="2020-03-13T16:26:21Z" depends-on-methods="demo.BV_BND.Open_AppianRx" finished-at="2020-03-13T16:26:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppianRx_SignIn -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-06T04:35:19Z" finished-at="2020-03-06T04:35:19Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-13T16:26:22Z" finished-at="2020-03-13T16:26:22Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="Open_Intake()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Open_Intake" duration-ms="7596" started-at="2020-03-06T04:35:19Z" depends-on-methods="demo.BV_BND.AppianRx_SignIn" finished-at="2020-03-06T04:35:27Z">
+        <test-method status="PASS" signature="Open_Intake()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Open_Intake" duration-ms="6751" started-at="2020-03-13T16:26:22Z" depends-on-methods="demo.BV_BND.AppianRx_SignIn" finished-at="2020-03-13T16:26:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_Intake -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-06T04:35:27Z" finished-at="2020-03-06T04:35:27Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="1" started-at="2020-03-13T16:26:28Z" finished-at="2020-03-13T16:26:28Z">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="Unattended_Faxes()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Unattended_Faxes" duration-ms="7233" started-at="2020-03-06T04:35:27Z" depends-on-methods="demo.BV_BND.Open_Intake" finished-at="2020-03-06T04:35:34Z">
+        <test-method status="PASS" signature="Unattended_Faxes()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Unattended_Faxes" duration-ms="7242" started-at="2020-03-13T16:26:28Z" depends-on-methods="demo.BV_BND.Open_Intake" finished-at="2020-03-13T16:26:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Unattended_Faxes -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-06T04:35:34Z" finished-at="2020-03-06T04:35:34Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="1" started-at="2020-03-13T16:26:36Z" finished-at="2020-03-13T16:26:36Z">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="Assigned_Faxes()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Assigned_Faxes" duration-ms="8644" started-at="2020-03-06T04:35:34Z" depends-on-methods="demo.BV_BND.Unattended_Faxes" finished-at="2020-03-06T04:35:43Z">
+        <test-method status="PASS" signature="Assigned_Faxes()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Assigned_Faxes" duration-ms="8588" started-at="2020-03-13T16:26:36Z" depends-on-methods="demo.BV_BND.Unattended_Faxes" finished-at="2020-03-13T16:26:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Assigned_Faxes -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-06T04:35:43Z" finished-at="2020-03-06T04:35:43Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-13T16:26:44Z" finished-at="2020-03-13T16:26:44Z">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="SelectPatientTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a]" name="SelectPatientTo_Case" duration-ms="24103" started-at="2020-03-06T04:35:43Z" depends-on-methods="demo.BV_BND.Assigned_Faxes" finished-at="2020-03-06T04:36:07Z">
+        <test-method status="PASS" signature="SelectPatientTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a]" name="SelectPatientTo_Case" duration-ms="23616" started-at="2020-03-13T16:26:44Z" depends-on-methods="demo.BV_BND.Assigned_Faxes" finished-at="2020-03-13T16:27:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectPatientTo_Case -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-06T04:36:07Z" finished-at="2020-03-06T04:36:07Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-13T16:27:08Z" finished-at="2020-03-13T16:27:08Z">
           <params>
             <param index="0">
               <value>
@@ -101,27 +101,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="FAIL" signature="SelectHCPTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a]" name="SelectHCPTo_Case" duration-ms="4252" started-at="2020-03-06T04:36:07Z" depends-on-methods="demo.BV_BND.SelectPatientTo_Case" finished-at="2020-03-06T04:36:11Z">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method status="PASS" signature="SelectHCPTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a]" name="SelectHCPTo_Case" duration-ms="14269" started-at="2020-03-13T16:27:08Z" depends-on-methods="demo.BV_BND.SelectPatientTo_Case" finished-at="2020-03-13T16:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHCPTo_Case -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="1" started-at="2020-03-13T16:27:22Z" finished-at="2020-03-13T16:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectHCPTo_Case status=SUCCESS method=BV_BND.SelectHCPTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SelectSiteTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a]" name="SelectSiteTo_Case" duration-ms="14055" started-at="2020-03-13T16:27:22Z" depends-on-methods="demo.BV_BND.SelectHCPTo_Case" finished-at="2020-03-13T16:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSiteTo_Case -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="0" started-at="2020-03-13T16:27:36Z" finished-at="2020-03-13T16:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectSiteTo_Case status=SUCCESS method=BV_BND.SelectSiteTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="FAIL" signature="Service_Validation()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Service_Validation" duration-ms="17137" started-at="2020-03-13T16:27:36Z" depends-on-methods="demo.BV_BND.SelectSiteTo_Case" finished-at="2020-03-13T16:27:53Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cdk-accordion-child-5"]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img"}
   (Session info: chrome=80.0.3987.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DEL-LAP10', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 158bba4570a2539ff6317115ccb6d158]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dae44502dfc982a48562d9106e1e053
+*** Element info: {Using=xpath, value=//*[@id="cdk-accordion-child-5"]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cdk-accordion-child-5"]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img"}
   (Session info: chrome=80.0.3987.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DEL-LAP10', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 158bba4570a2539ff6317115ccb6d158
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ashutosh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dae44502dfc982a48562d9106e1e053
+*** Element info: {Using=xpath, value=//*[@id="cdk-accordion-child-5"]/div/mat-card/table/tbody/tr/td[1]/div/div[2]/img}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -132,9 +164,11 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at demo.BV_BND.SelectHCPTo_Case(BV_BND.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at demo.BV_BND.Service_Validation(BV_BND.java:189)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -161,46 +195,38 @@ Session ID: 158bba4570a2539ff6317115ccb6d158
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectHCPTo_Case -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="554" started-at="2020-03-06T04:36:11Z" finished-at="2020-03-06T04:36:12Z">
+        </test-method> <!-- Service_Validation -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:demo.BV_BND@d2cc05a]" name="teardown" is-config="true" duration-ms="540" started-at="2020-03-13T16:27:53Z" finished-at="2020-03-13T16:27:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SelectHCPTo_Case status=FAILURE method=BV_BND.SelectHCPTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a] output={null}]]]>
+                <![CDATA[[TestResult name=Service_Validation status=FAILURE method=BV_BND.Service_Validation()[pri:0, instance:demo.BV_BND@d2cc05a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="SelectSiteTo_Case()[pri:0, instance:demo.BV_BND@d2cc05a]" name="SelectSiteTo_Case" duration-ms="0" started-at="2020-03-06T04:36:12Z" depends-on-methods="demo.BV_BND.SelectHCPTo_Case" finished-at="2020-03-06T04:36:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectSiteTo_Case -->
-        <test-method status="SKIP" signature="Service_Validation()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Service_Validation" duration-ms="1" started-at="2020-03-06T04:36:12Z" depends-on-methods="demo.BV_BND.SelectSiteTo_Case" finished-at="2020-03-06T04:36:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Service_Validation -->
-        <test-method status="SKIP" signature="Check_Benefit()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Check_Benefit" duration-ms="0" started-at="2020-03-06T04:36:12Z" depends-on-methods="demo.BV_BND.Service_Validation" finished-at="2020-03-06T04:36:12Z">
+        <test-method status="SKIP" signature="Check_Benefit()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Check_Benefit" duration-ms="1" started-at="2020-03-13T16:27:54Z" depends-on-methods="demo.BV_BND.Service_Validation" finished-at="2020-03-13T16:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Benefit -->
-        <test-method status="SKIP" signature="Proceed()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Proceed" duration-ms="0" started-at="2020-03-06T04:36:12Z" depends-on-methods="demo.BV_BND.Check_Benefit" finished-at="2020-03-06T04:36:12Z">
+        <test-method status="SKIP" signature="Proceed()[pri:0, instance:demo.BV_BND@d2cc05a]" name="Proceed" duration-ms="0" started-at="2020-03-13T16:27:54Z" depends-on-methods="demo.BV_BND.Check_Benefit" finished-at="2020-03-13T16:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Proceed -->
-        <test-method status="SKIP" signature="HCP_FAX()[pri:0, instance:demo.BV_BND@d2cc05a]" name="HCP_FAX" duration-ms="1" started-at="2020-03-06T04:36:12Z" depends-on-methods="demo.BV_BND.Proceed" finished-at="2020-03-06T04:36:12Z">
+        <test-method status="SKIP" signature="HCP_FAX()[pri:0, instance:demo.BV_BND@d2cc05a]" name="HCP_FAX" duration-ms="0" started-at="2020-03-13T16:27:54Z" depends-on-methods="demo.BV_BND.Proceed" finished-at="2020-03-13T16:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HCP_FAX -->
-        <test-method status="SKIP" signature="KAM_Email()[pri:0, instance:demo.BV_BND@d2cc05a]" name="KAM_Email" duration-ms="1" started-at="2020-03-06T04:36:12Z" depends-on-methods="demo.BV_BND.HCP_FAX" finished-at="2020-03-06T04:36:12Z">
+        <test-method status="SKIP" signature="KAM_Email()[pri:0, instance:demo.BV_BND@d2cc05a]" name="KAM_Email" duration-ms="1" started-at="2020-03-13T16:27:54Z" depends-on-methods="demo.BV_BND.HCP_FAX" finished-at="2020-03-13T16:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- KAM_Email -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:demo.BV_BND@d2cc05a]" name="endreport" is-config="true" duration-ms="710" started-at="2020-03-06T04:36:12Z" finished-at="2020-03-06T04:36:12Z">
+        <test-method status="PASS" signature="endreport()[pri:0, instance:demo.BV_BND@d2cc05a]" name="endreport" is-config="true" duration-ms="762" started-at="2020-03-13T16:27:54Z" finished-at="2020-03-13T16:27:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endreport -->
